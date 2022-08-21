@@ -1,25 +1,13 @@
-import logo from './logo.svg';
-import './App.css';
+import RightPage from "./pages/rightPage";
+import LeftPage from "./pages/leftPage";
 
-function App() {
+export default function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="w-full h-screen bg-zinc-300 flex flex-col justify-between">
+      <div className="grid-cols-2 flex">
+        <LeftPage />
+        <RightPage />
+      </div>
     </div>
   );
 }
-
-export default App;
