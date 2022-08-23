@@ -8,27 +8,6 @@ export default function MajorSelect() {
         <option value="1">Math</option>
         <option value="2">ICS</option>
         <option value="3">COE</option>
-        <option value="1">Math</option>
-        <option value="2">ICS</option>
-        <option value="3">COE</option>
-        <option value="1">Math</option>
-        <option value="2">ICS</option>
-        <option value="3">COE</option>
-        <option value="1">Math</option>
-        <option value="2">ICS</option>
-        <option value="3">COE</option>
-        <option value="1">Math</option>
-        <option value="2">ICS</option>
-        <option value="3">COE</option>
-        <option value="1">Math</option>
-        <option value="2">ICS</option>
-        <option value="3">COE</option>
-        <option value="1">Math</option>
-        <option value="2">ICS</option>
-        <option value="3">COE</option>
-        <option value="1">Math</option>
-        <option value="2">ICS</option>
-        <option value="3">COE</option>
       </select>
     </div>
 
