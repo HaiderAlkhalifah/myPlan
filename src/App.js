@@ -4,9 +4,9 @@ import LeftPage from "./pages/leftPage";
 export default function App() {
   return (
     <div className="w-full h-screen bg-zinc-300 flex flex-col justify-between">
-      <div className="grid-cols-2 flex">
+      <div className="flex justify-items-stretch">
         <LeftPage />
-        <RightPage />
+        <RightPage className="justify-self-end" />
       </div>
     </div>
   );
