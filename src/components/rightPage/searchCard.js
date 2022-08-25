@@ -3,8 +3,8 @@ import { faSearch } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 export default function SearchCard() {
   return (
-    <section className=" grid justify-items-center content-start container h-[600px] mx-4 p-4 rounded-xl bg-whiteb shadow-md w-[300px]   ">
-      <div className="container mb-4 h-9 rounded-xl border shadow-sm border-textP">
+    <section className=" grid justify-items-center content-start container h-[600px] mx-4 p-4 rounded-xl bg-zinc-800 shadow-md w-[300px]   ">
+      <div className="container mb-4 h-9 rounded-xl border shadow-sm  bg-zinc-700 border-none">
         {" "}
         <FontAwesomeIcon
           icon={faSearch}
@@ -15,14 +15,15 @@ export default function SearchCard() {
         <input
           type="text"
           placeholder="Search Courses"
-          className="rounded-md p-1 border-none focus:outline-none "
+          className="rounded-md p-1 border-none focus:outline-none bg-transparent text-onbackground "
         />
       </div>
-
-      <MajorCard />
-      <MajorCard />
-      <MajorCard />
-      <MajorCard />
+      <div className="overflow-y-scroll scrollbar-hide h-[500px] ">
+        <MajorCard />
+        <MajorCard />
+        <MajorCard />
+        <MajorCard />
+      </div>
     </section>
   );
 }
