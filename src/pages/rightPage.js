@@ -7,7 +7,7 @@ export default function RightPage() {
      h-screen bg-zinc-800 w-[400px] p-2 "
     >
       <MajorSelect />
-      <hr className=" h-2 border-zinc-700 w-[300px] p1 rounded-full my-8" />
+      <hr className=" h-2 border-zinc-400 w-[300px] p1 rounded-full my-8" />
       <SearchCard />
     </section>
   );
