@@ -1,7 +1,7 @@
 import MajorCard from "../rightPage/majorCard";
 export default function Termsq() {
   return (
-    <div className="container bg-white shadow-xl m-1 py-4  h-auto rounded-xl items-start justify-items-center">
+    <div className="container bg-white shadow-[0_4px_4px_4px_rgba(0,0,0,0.07)] m-1 py-4  h-auto rounded-xl items-start justify-items-center">
       <div className="text-bold text-center text-textP text-xl">Freshman</div>
       <hr className="border-textP m-4"></hr>
       <div className="grid grid-cols-2 content-evenly">

@@ -12,6 +12,7 @@ module.exports = {
         yellowa: "#FCBA40",
         reda: "#ED5464",
         bluea: "#4EC0E9",
+        purp:"#332A7C",
         textP: "#565388",
       },
     },
