@@ -5,7 +5,7 @@ export default function MajorSelect() {
         Select your major
       </label>
       <select
-        className=" bg-white text-textP rounded-xl p-2 w-[300px] h-[40px] mx-4 shadow-sm focus:border-none focus:outline-none focus:shadow-md hover:shadow-md duration-500 "
+        className=" bg-white text-textP rounded-xl p-2 w-[300px] h-[40px] mx-4 shadow-soft-card focus:border-none focus:outline-none hover:shadow-3xl focus:shadow-3xl  duration-500 "
         id="majors"
       >
         <option value="1">Math</option>

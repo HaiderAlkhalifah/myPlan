@@ -9,6 +9,6 @@ export default function RightPage() {
       <MajorSelect />
       <hr className=" h-2 border-textP w-[300px] p1 rounded my-4" />
       <SearchCard />
-    </section>
+  </section>
   );
 }
